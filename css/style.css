@@ -108,14 +108,15 @@ nav a:hover{
 /* Remainder of requirements here: */
 
 header{
-  /*background-attachment: fixed; /* Parallax effect */
+  background-attachment: fixed; /* Parallax effect */
   background-position: center; /* Parallax effect */
   background-size: cover; /* Parallax effect */
   color: white;
   height: 400px; /* Parallax effect */
 
   /* YOUR CODE HERE; */
-  grid-column: 1/8;
+  grid-column-start: 1;
+  grid-column-end: -1;
   grid-row:1;
   background-image: url("../images/header.jpg");
   background-repeat: no-repeat;
@@ -123,43 +124,47 @@ header{
 
 
 .about{
-  grid-column: 2/3;
+  grid-column: 2/span 1;
   grid-row-start:2;
   vertical-align: middle;
 }
 .about-image{
-  grid-column: 1/8;
+  grid-column-start: 1;
+  grid-column-end:4;
   grid-row-start:2 ;
   overflow: hidden;
   max-height:700px;
 }
 .method{
-  grid-column: 2/3;
+  grid-column: 2/span 1;
   grid-row-start:3 ;
 }
 .method-image{
-  grid-column: 1/8;
+  grid-column-start: 1;
+  grid-column-end:4;
   grid-row-start:3;
   overflow: hidden;
   max-height:700px;
 }
 .clients{
-  grid-column: 2/3;
+  grid-column: 2/span 1;
   grid-row-start:4;
 }
 .clients-image{
-  grid-column: 1/8;
+  grid-column-start: 1;
+  grid-column-end:4;
   grid-row-start:4 ;
   overflow: hidden;
   max-height:700px;
 }
 .contact{
-  grid-column: 2/3; 
+  grid-column: 2/span 1; 
   grid-row-start:5;
 }
 
 .contact-image{
-  grid-column: 1/8;
+  grid-column-start: 1;
+  grid-column-end:4;
   grid-row-start:5 ;
   overflow: hidden;
   max-height:700px;
