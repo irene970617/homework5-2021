@@ -205,41 +205,40 @@ header{
   
 
   .about{
-    grid-column: 2/span 2;
+    grid-column: 3/span 2;
     grid-row-start:2;
   
   }
   .about-image{
-    grid-column: 3/span 2;
+    grid-column: 2/span 2;
     grid-row-start:2 ;
     overflow: hidden;
   }
   .method{
-    grid-column: 3/span 2;
+    grid-column: 2/span 2;
     grid-row-start:3 ;
   }
   .method-image{
-    grid-column: 2/span 2;
+    grid-column: 3/span 2;
     grid-row-start:3;
     overflow: hidden;
   }
   .clients{
-    grid-column: 2/span 2;
+    grid-column: 3/span 2;
     grid-row-start:4;
   }
   .clients-image{
-    grid-column: 3/span 2;
+    grid-column: 2/span 2;
     grid-row-start:4 ;
     overflow: hidden;
   }
   .contact{
-    grid-column: 3/span 2; 
+    grid-column: 2/span 2; 
     grid-row-start:5;
   }
   
   .contact-image{
-    grid-column: 2/span 2;
-  
+    grid-column: 3/span 2;
     grid-row-start:5 ;
     overflow: hidden;
   }
